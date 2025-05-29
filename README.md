@@ -1,5 +1,7 @@
 # Vikram Singh Ecuador - Landing Page
 
+[Visit the live site →](https://vikramecuador.com)
+
 A modern, responsive landing page for Vikram Singh's authentic Hatha Yoga workshop in Ecuador. Built with Vite for optimal performance and developer experience.
 
 ## 🌟 Features

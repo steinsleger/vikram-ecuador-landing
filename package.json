@@ -1,0 +1,17 @@
+{
+  "name": "vikram-singh-ecuador",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Landing page for Vikram Singh's yoga workshop in Ecuador",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-html": "^3.2.2"
+  }
+}

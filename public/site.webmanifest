@@ -1,0 +1,20 @@
+{
+    "name": "Vikram Singh en Ecuador - Un Viaje hacia el Origen del Yoga",
+    "short_name": "Vikram Singh Ecuador",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2D4C51",
+    "background_color": "#F5E7D3",
+    "display": "standalone",
+    "start_url": "/"
+} 

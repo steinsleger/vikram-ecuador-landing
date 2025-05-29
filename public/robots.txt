@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to index the site
+# Sitemap location (update with your actual domain)
+Sitemap: https://vikramecuador.com/sitemap.xml
+
+# Allow indexing of images
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Allow CSS and JS for better rendering in search results
+Allow: /*.css$
+Allow: /*.js$ 

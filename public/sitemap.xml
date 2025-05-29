@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://vikramecuador.com/</loc>
+        <lastmod>2025-05-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Image entries for SEO -->
+        <image:image>
+            <image:loc>https://vikramecuador.com/preview.jpg</image:loc>
+            <image:caption>Vikram Singh - Maestro de Hatha Yoga en Ecuador</image:caption>
+            <image:title>Vikram Singh Ecuador Preview</image:title>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://vikramecuador.com/img1.jpg</image:loc>
+            <image:caption>Vikram Singh en posición de meditación</image:caption>
+            <image:title>Vikram Singh Meditación</image:title>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://vikramecuador.com/img2.jpg</image:loc>
+            <image:caption>Clase de yoga con Vikram Singh</image:caption>
+            <image:title>Clase de Yoga Vikram Singh</image:title>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://vikramecuador.com/img3.jpg</image:loc>
+            <image:caption>Clase grupal de yoga dirigida por Vikram Singh</image:caption>
+            <image:title>Clase Grupal Yoga</image:title>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://vikramecuador.com/img4.jpg</image:loc>
+            <image:caption>Sesión de meditación con Vikram Singh</image:caption>
+            <image:title>Sesión Meditación</image:title>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://vikramecuador.com/img5.jpg</image:loc>
+            <image:caption>Interior del Domo Soul Space</image:caption>
+            <image:title>Domo Soul Space Interior</image:title>
+        </image:image>
+    </url>
+</urlset> 

@@ -165,6 +165,48 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
   
+  // FAQ Accordion functionality
+  const faqQuestions = document.querySelectorAll('.faq-question')
+  const faqItems = document.querySelectorAll('.faq-item')
+  
+  // Add FAQ items to intersection observer
+  faqItems.forEach(el => observer.observe(el))
+  
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const isExpanded = question.getAttribute('aria-expanded') === 'true'
+      const answer = question.nextElementSibling
+      
+      // Toggle the current FAQ
+      question.setAttribute('aria-expanded', !isExpanded)
+      answer.setAttribute('aria-hidden', isExpanded)
+      
+      // Announce to screen readers
+      if (!isExpanded) {
+        announceToScreenReader(`Pregunta expandida: ${question.querySelector('span').textContent}`)
+      } else {
+        announceToScreenReader('Pregunta colapsada')
+      }
+    })
+    
+    // Keyboard navigation for FAQ
+    question.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault()
+        const currentIndex = Array.from(faqQuestions).indexOf(question)
+        let nextIndex
+        
+        if (e.key === 'ArrowDown') {
+          nextIndex = currentIndex < faqQuestions.length - 1 ? currentIndex + 1 : 0
+        } else {
+          nextIndex = currentIndex > 0 ? currentIndex - 1 : faqQuestions.length - 1
+        }
+        
+        faqQuestions[nextIndex].focus()
+      }
+    })
+  })
+  
   // Enhance external link accessibility
   const externalLinks = document.querySelectorAll('a[target="_blank"]')
   externalLinks.forEach(link => {
